@@ -92,8 +92,8 @@ Graph_Cost = log(1 + exp( Graph_Cost ));
 
 % Graph matching
 [X,score] = hungarian(Graph_Cost);
-% Yp        = label_reweighting(X,Graph_Cost); % with re-weighting
-Yp        = label_transform(X,Graph_Cost); % without re-weighting
+Yp        = label_reweighting(X,Graph_Cost); % with re-weighting
+% Yp        = label_transform(X,Graph_Cost); % without re-weighting
 
 F1 = score/(size(X,1)*mean(mean(Graph_Cost)));
 
