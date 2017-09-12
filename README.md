@@ -29,7 +29,8 @@ Notes: Due to the random graph generation, the results may be slighlty different
 
  - d. Train IDE with our provided code follow the [steps](https://github.com/apache/incubator-mxnet/tree/master/example/image-classification) or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
 
-
+We provide our trained models
+[Unuspervised](https://drive.google.com/open?id=0BxD9a73ckQ0vYktDNllndzdpTXc)-----[Supervised](https://drive.google.com/open?id=0BxD9a73ckQ0vYktDNllndzdpTXc)
 
 
 ### Citation
