@@ -1,6 +1,6 @@
 ## Dynamic Label Graph Matching for Unsupervised Video Re-Identification
 
-Demo code for [Dynamic Label Graph Matching for Unsupervised Video Re-Identification] (http://www.comp.hkbu.edu.hk/~mangye/) in ICCV 2017.
+Demo code for [Dynamic Label Graph Matching for Unsupervised Video Re-Identification](http://www.comp.hkbu.edu.hk/~mangye/) in ICCV 2017.
 
 
 
