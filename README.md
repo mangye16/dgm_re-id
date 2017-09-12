@@ -6,7 +6,7 @@ Demo code for "Dynamic Label Graph Matching for Unsupervised Video Re-Identifica
 
 
 
-The code code is under preparation.
+We revised the evaluation proctocal for the IDE on MARS dataset. In previous version, due to file traverse problem, which leads an different evaluation proctol, we achieve an extremely high performance compared with other baselines. We re-evaluate our perfomance under standard settings.
 
 
 
