@@ -11,7 +11,7 @@ We revised the evaluation proctocal for the IDE on MARS dataset. In previous ver
 
 **Test on PRID-2011 and iLIDS-VID dataset. **
 
-1. You need to download our extracted features (https://pan.baidu.com/s/1slyMCuL) or extract features by yourself. Put it under data/ folder
+1. You need to download our extracted features (https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under data/ folder
 
 2. You could run the demo_dgm.m and edit it to adjust for different datsets and different settings. 
 
