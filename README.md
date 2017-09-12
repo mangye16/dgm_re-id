@@ -8,27 +8,32 @@ Demo code for "Dynamic Label Graph Matching for Unsupervised Video Re-Identifica
 
 We revised the evaluation proctocal for the IDE on MARS dataset. In previous version, due to file traverse problem, which leads a different evaluation proctol, we achieve an extremely high performance compared with other baselines (Unsupervised rank-1 65.2%, and supervised 75.8). We re-evaluate our perfomance under standard settings, the rank-1 is 36.8% for our unsupervised method, and the supervised upper bound is 56.2%.
 
-**1. Test on PRID-2011 and iLIDS-VID dataset.**
-
-1. You need to download our extracted features [LOMO](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under data/ folder
-
-2. You could run the *demo_dgm.m* and edit it to adjust for different datsets and different settings. 
+### 1. Test on PRID-2011 and iLIDS-VID datasets.
 
 
-**2. Test on MARS dataset.**
+a. You need to download our extracted features [LOMO](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under data/ folder
+
+b. You could run the *demo_dgm.m* and edit it to adjust for different datsets and different settings. 
+
+
+
+
+### 2. Test on MARS dataset.
 
 Notes: Due to the random graph generation, the results may be slighlty different.
 
-1. You need to download our extracted features [LOMO](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under data/ folder
+a. You need to download our extracted features [LOMO](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under data/ folder
 
-2. You could run the *demo_mars.m* and edit it to adjust for different datsets and different settings. Meanwhile, we could get the estimated labels.
+b. You could run the *demo_mars.m* and edit it to adjust for different datsets and different settings. Meanwhile, we could get the estimated labels.
 
-3. With the estimated labels, we could re-arrange the dataset for IDE training. 
+c. With the estimated labels, we could re-arrange the dataset for IDE training. 
 
-4. Train IDE with our provided code or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
+d. Train IDE with our provided code or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
 
 
 
+
+### Citation
 Please cite this paper in your publications if it helps your research:
 ```
 @inproceedings{iccv17dgm,
