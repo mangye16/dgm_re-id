@@ -10,9 +10,9 @@ We revised the evaluation proctocal for the IDE on MARS dataset. In previous ver
 ### 1. Test on PRID-2011 and iLIDS-VID datasets.
 
 
- - (a). You need to download our extracted features [LOMO](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under data/ folder
+ - a. You need to download our extracted features [LOMO](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under data/ folder
 
- - (b). You could run the *demo_dgm.m* and edit it to adjust for different datsets and different settings. 
+ - b. You could run the *demo_dgm.m* and edit it to adjust for different datsets and different settings. 
 
 
 
@@ -21,13 +21,13 @@ We revised the evaluation proctocal for the IDE on MARS dataset. In previous ver
 
 Notes: Due to the random graph generation, the results may be slighlty different.
 
- - (a). You need to download our extracted features [LOMO](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under data/ folder
+ - a. You need to download our extracted features [LOMO](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under data/ folder
 
- - (b). You could run the *demo_mars.m* and edit it to adjust for different datsets and different settings. Meanwhile, we could get the estimated labels.
+ - b. You could run the *demo_mars.m* and edit it to adjust for different datsets and different settings. Meanwhile, we could get the estimated labels.
 
- - (c). With the estimated labels, we could re-arrange the dataset for IDE training. 
+ - c. With the estimated labels, we could re-arrange the dataset for IDE training. 
 
- - (d). Train IDE with our provided code follow the [steps](https://github.com/apache/incubator-mxnet/tree/master/example/image-classification) or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
+ - d. Train IDE with our provided code follow the [steps](https://github.com/apache/incubator-mxnet/tree/master/example/image-classification) or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
 
 
 
