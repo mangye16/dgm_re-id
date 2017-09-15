@@ -27,7 +27,7 @@ Notes: Due to the random graph generation, the results may be slighlty different
 
  - c. With the estimated labels, we could re-arrange the dataset for IDE training. 
 
- - d. Train IDE with our provided code follow the [steps](https://github.com/apache/incubator-mxnet/tree/master/example/image-classification) or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
+ - d. Train IDE with our provided code follow the [steps](https://github.com/apache/incubator-mxnet/tree/master/example/image-classification) based on mxNet or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
 
 We provide our trained [models](https://drive.google.com/open?id=0BxD9a73ckQ0vYktDNllndzdpTXc) for unsupervised and supervised baseline.
 
