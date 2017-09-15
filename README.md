@@ -1,6 +1,6 @@
 ## Dynamic Label Graph Matching for Unsupervised Video Re-Identification
 
-Demo code for [Dynamic Label Graph Matching for Unsupervised Video Re-Identification](http://www.comp.hkbu.edu.hk/~mangye/) in ICCV 2017.
+Demo code for [Dynamic Label Graph Matching for Unsupervised Video Re-Identification](http://www.comp.hkbu.edu.hk/~mangye/files/iccv17dgm2.pdf) in ICCV 2017.
 
 
 
@@ -14,7 +14,13 @@ We revised the evaluation proctocal for the IDE on MARS dataset. In previous ver
 
  - b. You could run the *demo_dgm.m* and edit it to adjust for different datsets and different settings. 
 
+### Results
+- LOMO on PRID-2011 and iLIDS-VID
 
+|Datasets | Rank@1 | Rank@5 | Rank@10 |
+| --------   | -----  | ---- | ----  |
+|#PRID-2011  | 73.1% | 92.5% | 96.7% |
+|#iLIDS-VID | 37.1% | 61.3% | 72.2% |
 
 
 ### 2. Test on MARS dataset.
@@ -30,6 +36,15 @@ Notes: Due to the random graph generation, the results may be slighlty different
  - d. Train IDE with our provided code follow the [steps](https://github.com/apache/incubator-mxnet/tree/master/example/image-classification) based on mxNet or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
 
 We provide our trained [models](https://drive.google.com/open?id=0BxD9a73ckQ0vYktDNllndzdpTXc) for unsupervised and supervised baseline.
+
+
+### Results
+- On MARS dataset
+
+|Methods | Rank@1 | Rank@5 | mAP |
+| --------   | -----  | ---- | ----  |
+|#LOMO  | 24.6% | 42.6% | 11.8% |
+|#IDE | 36.8% | 54.0% | 21.3% |
 
 
 ### Citation
