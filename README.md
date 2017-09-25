@@ -10,7 +10,7 @@ We revised the evaluation proctocal for the IDE on MARS dataset. In previous ver
 ### 1. Test on PRID-2011 and iLIDS-VID datasets.
 
 
- - a. You need to download our extracted features LOMO on [BAIDUYun](https://pan.baidu.com/s/1b7UwbW) and [GoogleDrive](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under "data/" folder
+ - a. You need to download our extracted features LOMO on [BaiduYun](https://pan.baidu.com/s/1b7UwbW) and [GoogleDrive](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under "data/" folder
 
  - b. You could run the *demo_dgm.m* and edit it to adjust for different datsets and different settings. 
 
@@ -27,7 +27,7 @@ We revised the evaluation proctocal for the IDE on MARS dataset. In previous ver
 
 Notes: Due to the random graph generation, the results may be slighlty different.
 
- - a. You need to download our extracted features LOMO on [BAIDUYun](https://pan.baidu.com/s/1b7UwbW) and [GoogleDrive](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under "data/" folder
+ - a. You need to download our extracted features LOMO on [BaiduYun](https://pan.baidu.com/s/1b7UwbW) and [GoogleDrive](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under "data/" folder
 
  - b. You could run the *demo_mars.m* and edit it to adjust for different settings. Meanwhile, we could get the estimated labels.
 
@@ -35,7 +35,7 @@ Notes: Due to the random graph generation, the results may be slighlty different
 
  - d. Train IDE with our provided code follow the [steps](https://github.com/apache/incubator-mxnet/tree/master/example/image-classification) based on mxNet or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
 
-We provide our trained models on [BAIDUYun](https://pan.baidu.com/s/1qYPYXa8) and [GoogleDrive](https://drive.google.com/open?id=0BxD9a73ckQ0vYktDNllndzdpTXc) for unsupervised and supervised baseline.
+We provide our trained models on [BaiduYun](https://pan.baidu.com/s/1qYPYXa8) and [GoogleDrive](https://drive.google.com/open?id=0BxD9a73ckQ0vYktDNllndzdpTXc) for unsupervised and supervised baseline.
 
 
 ### Results
