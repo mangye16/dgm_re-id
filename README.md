@@ -5,7 +5,7 @@ Demo code for [Dynamic Label Graph Matching for Unsupervised Video Re-Identifica
 
 
 
-We revised the evaluation proctocal for the IDE on MARS dataset. In previous version, due to file traverse problem, which leads a different evaluation proctol, we achieve an extremely high performance (Unsupervised rank-1 65.2%, and supervised 75.8%) compared with other baselines . We re-evaluate our perfomance under standard settings, the rank-1 is 36.8% for our unsupervised method, and the supervised upper bound is 56.2%. [PDF](http://www.comp.hkbu.edu.hk/~mangye/files/iccv17dgm2.pdf)
+We revised the evaluation protocol for the IDE on MARS dataset. In previous version, due to file traverse problem, which leads a different evaluation protocol, we achieve an extremely high performance (Unsupervised rank-1 65.2%, and supervised 75.8%) compared with other baselines in our cv-foundation version. We re-evaluate our perfomance under standard settings, the rank-1 is 36.8% for our unsupervised method, and the supervised upper bound is 56.2%. Please refer to the version on our website and github for latest results. [PDF](http://www.comp.hkbu.edu.hk/~mangye/files/iccv17dgm2.pdf)
 
 ### 1. Test on PRID-2011 and iLIDS-VID datasets.
 
