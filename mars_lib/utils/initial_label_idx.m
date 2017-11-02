@@ -12,7 +12,7 @@ for i = 1:length(ori_idx)
         idx = idx_1;
     end 
     
-    label_idx(idx) = i;   
+    label_idx(idx(1)) = i;   
 end
 
 end
