@@ -9,10 +9,10 @@ for i = 1:length(ori_idx)
     idx_2 = find(train_idx(:,2)==1) ;
     idx = intersect(idx_1,idx_2);    
     if isempty(idx)
-        idx = idx_1;
+        idx = idx_1(1);
     end 
     
-    label_idx(idx(1)) = i;   
+    label_idx(idx) = i;   
 end
 
 end
