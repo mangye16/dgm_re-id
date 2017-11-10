@@ -23,21 +23,6 @@ We revised the evaluation protocol for the IDE on MARS dataset. In previous vers
 |#iLIDS-VID | 37.1% | 61.3% | 72.2% |
 
 
-### 2. Test on MARS dataset.
-
-Notes: Due to the random graph generation, the results may be slighlty different.
-
- - a. You need to download our extracted features LOMO on [BaiduYun](https://pan.baidu.com/s/1b7UwbW) and [GoogleDrive](https://drive.google.com/open?id=0BxD9a73ckQ0vVzVWTkhmc2NSLTA) or extract features by yourself. Put it under "data/" folder
-
- - b. You could run the *demo_mars.m* and edit it to adjust for different settings. Meanwhile, we could get the estimated labels.
-
- - c. With the estimated labels, we could re-arrange the dataset for IDE training. 
-
- - d. Train IDE with our provided code follow the [steps](https://github.com/apache/incubator-mxnet/tree/master/example/image-classification) based on mxNet or try the baseline provided by [Zhun Zhong](https://github.com/zhunzhong07/IDE-baseline-Market-1501).
-
-We provide our trained models on [BaiduYun](https://pan.baidu.com/s/1qYPYXa8) and [GoogleDrive](https://drive.google.com/open?id=0BxD9a73ckQ0vYktDNllndzdpTXc) for unsupervised and supervised baseline.
-
-
 ### Results
 - On MARS dataset
 
