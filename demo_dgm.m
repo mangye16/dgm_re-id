@@ -21,7 +21,7 @@ addpath ('lib/','data/');
 dataset_name = 'ilids'; % 'prid' or 'ilids'
 pcadim       = 600;
 nTrial       = 10;
-val          = 2; % 0: sequence cost only, 1: neighbor cost only, 2: both
+val          = 0; % 0: sequence cost only, 1: neighbor cost only, 2: both
 
 %% load data
 disp(['Evaluation on ' dataset_name ' dataset.']);
@@ -89,6 +89,7 @@ fprintf('Trial %d   Iter %d  ', trial, iter);
 %% Graph cost construction
 Graph_Cost = Graph_Cost-mu;
 Graph_Cost = log(1 + exp( Graph_Cost ));
+Graph_Cost = sqrt(Graph_Cost);
 
 % Graph matching
 [X,score] = hungarian(Graph_Cost);
