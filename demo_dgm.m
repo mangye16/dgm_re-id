@@ -89,7 +89,6 @@ fprintf('Trial %d   Iter %d  ', trial, iter);
 %% Graph cost construction
 Graph_Cost = Graph_Cost-mu;
 Graph_Cost = log(1 + exp( Graph_Cost ));
-Graph_Cost = sqrt(Graph_Cost);
 
 % Graph matching
 [X,score] = hungarian(Graph_Cost);
